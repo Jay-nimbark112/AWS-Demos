@@ -47,9 +47,9 @@ You have full control over network configuration, including:
 
 1. **Q: Difference between Security Groups and ACLs in a VPC?**
 
-    - **Ans:** A Security Group defines which traffic is allowed TO or FROM  EC2 instance. Whereas ACL, controls at the SUBNET level, scrutinize the traffic TO or FROM a Subnet.
+    - **Ans:** A Security Group defines which traffic is allowed TO or FROM an EC2 instance. Whereas ACL controls at the SUBNET level, inspect the traffic TO or FROM a Subnet.
 
-1. **Q: Hon an EC2 instance in a VPC establish the connection with the internet?**
+1. **Q: Can an EC2 instance in a VPC establish a connection with the internet?**
 
     - **Ans:** Using either a Public IP or an Elastic IP.
 
@@ -63,16 +63,16 @@ You have full control over network configuration, including:
 
 1. **Q: What is AMI?**
 
-    - **Ans:** AMI is defined as Amazon Machine Image. Basically it’s a template comprising software configuration part. For example, Operating System, DB Server, Application Server, etc.,,,
+    - **Ans:** AMI is defined as Amazon Machine Image. Basically it’s a template comprising a software configuration part. For example, Operating System, DB Server, Application Server, etc,,,
 An Amazon Machine Image (AMI) is a pre-configured template used to launch EC2 instances.
 
 1. **Q: Difference between Stopping and Terminating the Instances?**
 
-    - **Ans:** When you STOP an instance it is a normal shutdown. The corresponding EBS volume attached to that instance remains attached and you can restart the instance later. When you TERMINATE an instance it gets deleted and you cannot restart that instance again later. And any EBS volume attached with that instance also deleted.
+    - **Ans:** When you STOP an instance, it is a normal shutdown. The corresponding EBS volume attached to that instance remains attached and you can restart the instance later. When you TERMINATE an instance, it gets deleted, and you cannot restart that instance again later. And any EBS volume attached with that instance also deleted.
 
-1. **Q: When you launch a standby Relational Database Service instance will it be available in the same Available Zone?**
+1. **Q: When you launch a standby Relational Database Service instance, will it be available in the same Available Zone?**
 
-    - **Ans:** Not advisable. Because the purpose of having standby RDS  instance is to avoid an infrastructure failure. So you have to keep your standby RDS service in a different Availability Zone, which may have different infrastructure.
+    - **Ans:** Not advisable. The purpose of having a standby RDS  instance is to avoid an infrastructure failure. So you have to keep your standby RDS service in a different Availability Zone, which may have different infrastructure.
 
 1. **Q: Difference between Amazon RDS, DynamoDB and Redshift?**
 
