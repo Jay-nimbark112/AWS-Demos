@@ -551,7 +551,7 @@ Supports snapshots and backups
 
 Best for: Databases, OS, long-term storage
 
-1. **Q: BS can be attached to any running instance that is in the same Availability Zone ?**
+1. **Q: EBS can be attached to any running instance that is in the same Availability Zone ?**
 
     1.  True
     2.  False
