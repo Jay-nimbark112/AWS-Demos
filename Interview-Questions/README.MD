@@ -1,5 +1,7 @@
 # **AWS Interview Questions & Answers**
 
+VPC = Virtual Private Cloud
+
 1. **Q: List the components required to build Amazon VPC?**
 
     - **Ans:** Subnet, Internet Gateway, NAT Gateway, HW VPN Connection, Virtual Private Gateway, Customer Gateway, Router, Peering Connection, VPC Endpoint for S3, Egress-only Internet Gateway.
