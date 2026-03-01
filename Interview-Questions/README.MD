@@ -91,8 +91,7 @@ An Amazon Machine Image (AMI) is a pre-configured template used to launch EC2 in
 AWS Lambda is a serverless compute service provided by Amazon Web Services that lets you run code without managing servers.
 
 You simply upload your code, and Lambda runs it automatically in response to events.
-
-👉 In simple words: AWS Lambda lets you run code without creating or managing a server.
+ In simple words: AWS Lambda lets you run code without creating or managing a server.
 
     - **Ans:** Lambda is an event-driven platform. It is a compute service that runs code in response to events and automatically manages the compute resources required by that code.
 
