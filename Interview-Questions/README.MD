@@ -63,7 +63,8 @@ You have full control over network configuration, including:
 
 1. **Q: What is AMI?**
 
-    - **Ans:** AMI is defined as Amazon Machine Image. Basically it’s a template comprising software configuration part. For example, Operating System, DB Server, Application Server, etc.,
+    - **Ans:** AMI is defined as Amazon Machine Image. Basically it’s a template comprising software configuration part. For example, Operating System, DB Server, Application Server, etc.,,,
+An Amazon Machine Image (AMI) is a pre-configured template used to launch EC2 instances.
 
 1. **Q: Difference between Stopping and Terminating the Instances?**
 
