@@ -525,9 +525,31 @@ You simply upload your code, and Lambda runs it automatically in response to eve
 
     - **Ans:** **Resolution**
 
-    Some Amazon EC2 instance types come with a form of directly attached, block-device storage known as the instance store. The instance store is ideal for temporary storage, because the data stored in instance store volumes is not persistent through instance stops, terminations, or hardware failures. You can find more detailed information about the instance store at Amazon EC2 Instance Store.
+   Instance Store
 
-    For data you want to retain longer-term, or if you need to encrypt the data, we recommend using EBS volumes instead. EBS volumes preserve their data through instance stops and terminations, can be easily backed up with EBS snapshots, can be removed from instances and reattached to another, and support full-volume encryption. For more detailed information about EBS volumes, see Features of Amazon EBS.
+Temporary (ephemeral) storage attached directly to the EC2 host
+
+Data is lost if the instance is stopped or terminated
+
+Very high performance (physically attached disk)
+
+Cannot be detached and attached to another instance
+
+Best for: Cache, buffers, temporary files
+
+🔹 EBS (Elastic Block Store)
+
+Provided by Amazon Web Services
+
+Persistent block storage for EC2 instances
+
+Data remains even if instance is stopped
+
+Can be detached and attached to another instance
+
+Supports snapshots and backups
+
+Best for: Databases, OS, long-term storage
 
 1. **Q: BS can be attached to any running instance that is in the same Availability Zone ?**
 
