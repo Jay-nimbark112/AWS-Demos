@@ -716,8 +716,39 @@ Best for: Databases, OS, long-term storage
 
 1. **Q: What is the difference between Stack and Template in Cloud Formation ?**
 
-    - **Ans:** Stack : Cloud-based applications usually require a group of related resources—application servers, database servers, and so on—that must be created and managed collectively. This collection of instances is called a stack
+    - **Ans:**🔹 What is a Template?
 
+A Template is a blueprint (JSON or YAML file).
+
+It defines the infrastructure you want to create.
+
+It contains:
+
+EC2 instances
+
+S3 buckets
+
+VPC
+
+Security Groups
+
+IAM roles
+
+It describes what resources should be created.
+
+👉 Think of it as an architectural design.
+
+🔹 What is a Stack?
+
+A Stack is the actual deployed instance of a template.
+
+When you run a template in CloudFormation, it creates a stack.
+
+The stack contains all the AWS resources defined in the template.
+
+You can update, delete, or manage resources through the stack.
+
+👉 Think of it as the finished building created from the blueprint.
 1. **Q: We can create multiple server for same stack ?**
 
     - **Ans:** you can select one “instance type” e.g: t2.micro at a time but you can set more then one “Webserver Capacity” which is “The initial number of Webserver instances“ means automatically same kind of instances will launch.
