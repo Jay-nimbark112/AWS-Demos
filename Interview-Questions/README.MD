@@ -764,7 +764,7 @@ You can update, delete, or manage resources through the stack.
     3.  5
     4.  None the above
 
-    - **Ans:**
+    - **Ans:** 5
 
 1. **Q: What is the name to the additional network interfaces that can be created and attached to any Amazon EC2 instance in your VPC?**
 
