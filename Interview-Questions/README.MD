@@ -205,7 +205,7 @@ You simply upload your code, and Lambda runs it automatically in response to eve
 
 1. **Q: What is the use of Route Table?**
 
-    - **Ans:** Route Table is used to route the network pockets. Generally one route table would be available in each subnet. Route table can have any no. of records or information, hence attaching multiple subnets to a route table is also possible.
+    - **Ans:** Route Table is used to route the network packets. Generally one route table would be available in each subnet. Route table can have any no. of records or information, hence attaching multiple subnets to a route table is also possible.
 
 1. **Q: Can you use the Standby DB instance for read and write along with your Primary DB instance?**
 
