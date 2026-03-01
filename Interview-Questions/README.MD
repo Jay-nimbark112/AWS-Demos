@@ -306,37 +306,6 @@ You simply upload your code, and Lambda runs it automatically in response to eve
 
     - **Ans:** You can spin up and spin down VMs
 
-1. **Q:** **You can upload a custom configuration virtual image and sell it on the AWS Marketplace. True or false ?**
-
-    1.  True
-    2.  False
-
-    - **Ans:** True
-
-1. **Q: EC2 Machine types define which of the following ?**
-
-    1.  AWS Region
-    2.  Core Count
-    3.  User Location
-
-    - **Ans:** Core Count
-
-1. **Q:** **Which is default instance type**
-
-    1.  On-demand
-    2.  RI
-    3.  Spot instance
-
-    - **Ans:** On-demand
-
-1. **Q: What is Elastic Computing ?**
-
-    1.  Data will be replicate to different AZs
-    2.  You can spin up and spin down VMs
-    3.  Automatically VMs will be add and remove
-
-    - **Ans:** You can spin up and spin down VMs
-
 1. **Q: Can We launch multiple instances with same AMI ?**
 
     1.  True
