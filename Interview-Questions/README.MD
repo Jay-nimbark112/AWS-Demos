@@ -2,6 +2,17 @@
 
 VPC = Virtual Private Cloud
 
+A VPC is a logically isolated network within the AWS cloud where you can launch AWS resources (like EC2 instances, RDS databases, etc.).
+
+You have full control over network configuration, including:
+
+IP address range (CIDR block)
+Subnets (public/private)
+Route tables
+Network gateways
+Security settings (Security Groups & NACLs)
+--->>>   Think of a VPC as your own private data center in the cloud.
+
 1. **Q: List the components required to build Amazon VPC?**
 
     - **Ans:** Subnet, Internet Gateway, NAT Gateway, HW VPN Connection, Virtual Private Gateway, Customer Gateway, Router, Peering Connection, VPC Endpoint for S3, Egress-only Internet Gateway.
